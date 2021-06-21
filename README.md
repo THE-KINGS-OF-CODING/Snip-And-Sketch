@@ -8,7 +8,7 @@ Ever wondered if you can take a screenshot like windows Snip and Sketch using py
  
 #New Paint option added
 
-#Made a mistake while snipping, no problemo, you can choose new snip
+#Made a mistake while snipping, no problem, you can choose new snip
 #Added Fail Safe, in case the user faces any error. They can activate it by pressing ‘Esc’
 
 Thank you!!
