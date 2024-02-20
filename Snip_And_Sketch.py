@@ -89,7 +89,7 @@ class SnippingWidget(QtWidgets.QWidget):
         img = ImageGrab.grab(bbox=(x1, y1, x2, y2))
         QtWidgets.QApplication.processEvents()
         img = cv2.cvtColor(np.array(img), cv2.COLOR_BGR2RGB)
-
+        self.close()
         # add to the snips list the object that opens a window of the image
         Snip_And_Sketch.Menu(img, SnippingWidget.num_snip, (x1, y1, x2, y2))
 
